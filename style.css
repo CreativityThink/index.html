@@ -1,0 +1,436 @@
+ html,head,body,title,h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-weight: inherit;
+	list-style-type: none;  
+	text-decoration: none;
+	 
+
+}
+.container{
+		width:100%;
+	float: left;
+	
+}
+.container .header_con{
+	width: 100%;
+	float: left;
+	background:#283542;   
+}
+.container .header_con .header_center{
+	width: 1200px;
+	margin:0 auto;
+}
+.container .header_con .header_center .header{
+	width: 100%;
+	float: left;
+
+}
+.header .logo_search{
+	width: 100%;  /*<100>*/
+	float: left;
+	/*     */
+
+}
+.header .logo_search .logo{
+	width: 13%;   /*<13>*/
+	float: left;
+}
+
+.header .logo_search .logo h1{
+	font-size: 22px;
+	color: #FFFFFF;
+	padding: 13px 70px;
+
+} 
+.header .logo_search .list{
+	width: 40%; /*<30>*/
+	float: left;
+
+}
+.header .logo_search .list ul li{
+	width: 16%;
+	float: left;
+	margin: 15px 1px;
+	margin-right:1px;
+} 
+
+.header .logo_search .list ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+.header .logo_search .search{
+	width: 25%;
+    float:left;
+    margin: 11px 0px;
+}
+.header .logo_search .search .search_box{
+	width: 70%;
+	float: left;
+	position: absolute;
+
+}
+.header .logo_search .search .search_box img{
+	width: 22px;
+	height: 22px;
+	margin: 4px 1px;
+}
+.header .logo_search .search .search_box input{
+	width: 30%;
+	padding: 4px 7px;
+	box-sizing: border-box;
+	border:none;
+	outline:none;
+	margin: 3px 3px;
+	position: absolute;
+	background: #283542;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.header .logo_search .english{
+	width: 10%;
+	float: left;
+	margin-top: 12px;
+}
+.header .logo_search .english img{
+width: 30px;
+height: 29px;
+padding: 1px 20px;
+position: absolute;
+
+
+}
+.header .logo_search .english h3{
+	font-size: 22px;
+	float: right;
+	padding: 3px 0px; 
+color: #FFFFFF;
+}
+.container .menu-con{
+	width: 100%;
+	float: left;
+	background: #283542;
+}
+
+.container .menu-con .menu-center{
+	width: 1200px;
+	margin:0 auto;
+
+
+}
+.container .menu-con .menu-center .menu{
+	width: 100%;
+	float: left;	
+	
+	
+}
+.container .menu-con .menu-center .menu .menu-list{
+	width: 80%;
+	float: left;
+margin-bottom: 70px;
+
+}
+.container .menu-con .menu-center .menu .menu-list h1{
+	font-size: 65px;
+	color: #FFFFFF;
+	text-align: center;
+margin-top: 100px; 
+letter-spacing: 2px;
+word-spacing: 1px;
+
+}
+.container .menu-con .menu-center .menu .menu-list input{
+	width: 30%;
+	text-align:center;
+	font-size: 22px; 
+background: #2b2828;
+border: none;
+	margin-left: 319px; 
+	padding: 16px 19px;
+}	
+.container .menu-con .menu-center .menu .menu-list img{
+	width: 32px;
+	height: 39px;
+	
+	position: absolute;
+	padding: 9px 4px;
+
+	background-color: #0E83CD;
+}
+.container .menu-con .menu-center .menu .menu-type{
+	width: 90%;
+	float: right;
+}
+.container .menu-con .menu-center .menu .menu-type ul {
+	width: 40%;
+	
+	float: left;
+	/*border: 1px solid #0E83CD;*/
+	padding: 39px 2px;
+	margin-bottom: 40px;
+	margin-right: 19px;
+} 
+.container .menu-con .menu-center .menu .menu-type ul:hover{
+	background: #0E83CD;
+}
+.container .menu-con .menu-center .menu .menu-type ul h2{
+	color: gray;
+	font-size: 18px;
+
+}
+.container .menu-con .menu-center .menu .menu-type ul:hover{
+background: #0E83CD;
+
+}
+.container .menu-con .menu-center .menu .menu-type ul li{
+	color: white;
+	font-size: 20;
+}
+/*the end menu*/
+.container .section_con{
+	width:100%;
+	float: left;
+}
+
+.container .section_con .section_center{
+	width:1200px;
+	margin:0 auto;
+}
+
+.container .section_con .section_center .section{
+	width:100%;
+	float: left;
+}
+.container .section_con .section_center .section .section-list{
+	width: 90%;
+	margin: 0 auto;
+}
+.container .section_con .section_center .section .section-list> ul{
+	width: 46%;
+	float: left;
+	margin-bottom: 13px;
+	margin-right: 9px;
+	
+}
+.container .section_con .section_center .section .section-list ul h2 {
+	font-size: 29px;
+	color: #0E83CD;
+	
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+	word-spacing: 2px;
+}
+.container .section_con .section_center .section .section-list > ul > li  {
+	font-size: 19px;
+	color: gray;
+	
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+	word-spacing: 2px;
+}
+.container .section_con .section_center .section .section-list .edit{
+	width: 80%;
+	float: left; 
+		background: gray;
+}
+.container .section_con .section_center .section .section-list .edit ul li{
+	width: 70%;
+	font-size: 22px;
+	color: #44444;
+	margin: 2px;
+	padding: 9px 30px;
+
+}
+.container .section-con{
+	width:100%;
+	float: left;
+}
+
+.container .section-con .section-center{
+	width:1200px;
+	margin:0 auto;
+}
+
+.container .section-con .section-center .section-end{
+	width:100%;
+	float: left;
+}
+.container .section-con .section-center .section-end .button{
+	width: 100%;
+	
+	
+} 
+.container .section-con .section-center .section-end .button input{
+	text-align:center;
+	padding: 13px 19px;
+	font-size: 18px;
+	color:  #0E83CD;
+	margin-left: 399px;
+	margin-top: 40px;
+	background: white;
+	border: none;
+	outline:none;
+	border: 3px solid   #0E83CD;
+}
+.container .section-con .section-center .section-end .button:hover input{
+          background-color: #0E83CD;
+}
+.container .section-con .section-center .section-end .button:hover input{
+	color: white;
+	
+}
+.section-end .scrol{
+	width: 10px;
+	float: left;
+
+}
+.section-end .scrol a{
+	width: 10px;
+	height: 10px;
+	color: black;
+	background-color: orange;
+
+}
+
+.container .section-con .section-center .section-end .Themes{
+	width: 100%;
+	float: left;
+	background-color: #283542;
+}
+.container .section-con .section-center .section-end .Themes .theme-image{
+	width: 50%;
+	float: left;
+
+}
+
+ .container .section-con .section-center .section-end .Themes .theme-image img{
+	width: 400px;
+	height: 200px;
+margin-left:140px;
+margin-top: 100px;
+
+}
+ .container .section-con .section-center .section-end .Themes .theme-text{
+ 	width: 30%;
+ 	float: left;
+ 	margin-top: 100px; 
+ }
+  .container .section-con .section-center .section-end .Themes .theme-text h2{
+ 	font-size: 60px;
+ 	color: gray;
+ 	font-family: all;
+ 	letter-spacing: 1px;
+ 	word-spacing: 3px;
+
+ }
+  .container .section-con .section-center .section-end .Themes .theme-text p{
+ 	font-size: 22px;
+ 	color: gray;
+ 	font-family: all;
+ 	letter-spacing: 1px;
+ 	word-spacing: 1px;
+
+ }
+ .container .section-con .section-center .section-end .Themes .theme-text button{
+ 	margin:35px 49px;
+ 	padding: 13px 18px;
+font-size: 18px;
+border: none;
+background: #283542;
+color: #444444;
+border: 2px solid white;
+ }
+
+ .container .section-con .section-center .section-end .Themes .theme-text:hover button{
+   
+
+   color: #283542;
+ }
+  .container .section-con .section-center .section-end .Themes .theme-text:hover button{
+  	background-color: white;
+
+ 	
+ }
+/*end..................*/
+.container .footer-con{
+	width:100%;
+	float: left;
+}
+
+.container .footer-con .footer-center{
+	width:1200px;
+	margin:0 auto;
+}
+
+.container .footer-con .footer-center .footer-end{
+	width:100%;
+	float: left;
+	background-color: #171F26;
+}
+.container .footer-con .footer-center .footer-end .footer{
+	width: 30%;
+	margin:39px 13px; 
+	line-height: 19px;
+
+
+
+
+}
+
+.container .footer-con .footer-center .footer-end .footer a{
+	width: 20px;
+	height: 20px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	left: 120px;
+	background-color: orange;
+
+
+
+
+
+}
+.container .footer-con .footer-center .footer-end .footer p{
+	color: #44444;
+	font-size: 20px; 
+	position: absolute;
+	
+
+}
+.container .footer-con .footer-center .footer-end  .footer .footer-images{
+	width: 70%;
+	margin-left: 253%;
+	margin-top: 9px;
+	
+	
+
+}
+.container .footer-con .footer-center .footer-end  .footer .footer-images img{
+	width: 35px;
+	height: 32px;
+
+
+}
+.scrol{
+	width: 60px;
+	height: 25px;
+	position: fixed;
+	background-color: orange;
+	
+	bottom:100px;
+	right: 40px;
+	display: none;
+}
+.scrol a{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
